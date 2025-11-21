@@ -1,9 +1,12 @@
 # Flightradar24 MCP Server
 
-[![npm version](https://badge.fury.io/js/@flightradar24%2Ffr24api-mcp.svg)](https://badge.fury.io/js/@flightradar24%2Ffr24api-mcp)
+[![npm version](https://badge.fury.io/js/@bachstudio%2Ffr24api-mcp.svg)](https://badge.fury.io/js/@bachstudio%2Ffr24api-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server provides access to the Flightradar24 API for real-time and historical flight data. This server enables AI assistants like Claude to access comprehensive aviation data including live flight positions, aircraft information, airport details, and flight histories.
+
+> **Original Project**: This project is based on the official Flightradar24 MCP server.  
+> Original repository: [https://github.com/Flightradar24/fr24api-mcp](https://github.com/Flightradar24/fr24api-mcp)
 
 ## Features
 
@@ -19,7 +22,7 @@ This [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server prov
 ### Via npm
 
 ```bash
-npm install -g @flightradar24/fr24api-mcp
+npm install -g @bachstudio/fr24api-mcp
 ```
 
 ## Prerequisites
@@ -38,7 +41,7 @@ Add this configuration to your `claude_desktop_config.json` file:
   "mcpServers": {
     "fr24api": {
       "command": "npx",
-      "args": ["@flightradar24/fr24api-mcp@latest"],
+      "args": ["@bachstudio/fr24api-mcp@latest"],
       "env": {
         "FR24_API_KEY": "your_api_key_here"
       }
@@ -58,7 +61,7 @@ Add this configuration to your `claude_desktop_config.json` file:
 For other MCP clients, run the server directly:
 
 ```bash
-FR24_API_KEY=your_api_key_here npx @flightradar24/fr24api-mcp
+FR24_API_KEY=your_api_key_here npx @bachstudio/fr24api-mcp
 ```
 
 ## Available Tools
@@ -184,7 +187,7 @@ Get flight summary from 2024-01-01T00:00:00Z to 2024-01-02T00:00:00Z for route J
 ### Building from Source
 
 ```bash
-git clone https://github.com/flightradar24/fr24api-mcp.git
+git clone https://github.com/BACH-AI-Tools/fr24api-mcp.git
 cd fr24api-mcp
 npm install
 npm run build
@@ -202,7 +205,7 @@ npm run build
 ## Support
 
 - **Documentation**: [https://fr24api.flightradar24.com](https://fr24api.flightradar24.com)
-- **Issues**: [GitHub Issues](https://github.com/Flightradar24/fr24api-mcp/issues)
+- **Issues**: [GitHub Issues](https://github.com/BACH-AI-Tools/fr24api-mcp/issues)
 - **API Support**: Contact Flightradar24 API support
 
 ## License

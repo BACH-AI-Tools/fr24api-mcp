@@ -1,6 +1,6 @@
 {
-  "name": "@flightradar24/fr24api-mcp",
-  "mcpName": "io.github.Flightradar24/fr24api-mcp",
+  "name": "@bachstudio/fr24api-mcp",
+  "mcpName": "io.github.bachstudio/fr24api-mcp",
   "version": "1.0.1",
   "description": "MCP server providing access to the Flightradar24 API for real-time and historical flight data",
   "keywords": [
@@ -13,15 +13,15 @@
     "claude",
     "ai"
   ],
-  "author": "Flightradar24",
+  "author": "bachstudio",
   "license": "MIT",
-  "homepage": "https://fr24api.flightradar24.com",
+  "homepage": "https://github.com/BACH-AI-Tools/fr24api-mcp",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Flightradar24/fr24api-mcp.git"
+    "url": "git+https://github.com/BACH-AI-Tools/fr24api-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/Flightradar24/fr24api-mcp/issues"
+    "url": "https://github.com/BACH-AI-Tools/fr24api-mcp/issues"
   },
   "type": "module",
   "main": "build/index.js",
